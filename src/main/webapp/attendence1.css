@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c0c0c0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.box1{
+
+
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.box1 label{
+
+    font-size: 20px;
+}
+
+.box1 input{
+
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#view{
+
+
+    background-color: aqua;
+}
+#view:hover{
+
+    cursor: pointer;
+}
+
+
+.tab {
+  width: 80%;
+  height: 100px;
+  border-collapse: collapse;
+  margin: 1% 0% 0% 10%;
+}
+
+.tab th {
+  border: 2px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Header Styling */
+.tab th {
+  background-color: #004040;
+  color: white;
+  font-weight: bold;
+}
+
+/* Row Hover Effect */
+.tab tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Alternate Row Colors */
+.tab tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#idd,#name,#dep,#todate,#joindate ,#out {
+  height: 100%;
+  width: 100%;
+}
+
+
+#sub {
+  height: 40px;
+  width: 15%;
+  text-align: center;
+  font-size: 25px;
+  border: none;
+  background-color: rgba(40, 141, 178, 0.746);
+  border-radius: 10px;
+  margin: auto;
+
+  margin: 0% 0% 0% 35%;
+}
+
+.tab1 {
+  width: 25%;
+  height: 70px;
+  border-collapse: collapse;
+  margin: auto;
+  margin: 6% 10% 0% 40%;
+}
+.tab1 th {
+  border: 2px solid black;
+
+  text-align: left;
+  background-color: rgb(0, 64, 0);
+  color: white;
+  font-weight: bold;
+}
+#sub1 {
+  height: 40px;
+  width: 18%;
+  text-align: center;
+  font-size: 25px;
+  border: none;
+  background-color: rgba(40, 141, 178, 0.746);
+  border-radius: 10px;
+  margin: auto;
+  margin: 1% 0% 0% 40%;
+  padding: 5px;
+}
+
+label {
+  margin: 0% 0% 0% 20%;
+  font-size: 25px;
+} 
+

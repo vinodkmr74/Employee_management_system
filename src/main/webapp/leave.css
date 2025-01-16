@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c0c0c0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.form_fild{
+
+    width: 100%;
+    border: 2px red solid;
+}

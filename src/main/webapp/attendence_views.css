@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+h1{
+	
+	
+	        text-align: center;
+			font-size: 40px;
+            margin: auto;
+            margin-top: 10px;
+}
+  .tab {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 4% 0% 0% 10%
+        }
+
+        .tab th, .tab td {
+            border: 2px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        /* Header Styling */
+        .tab th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Row Hover Effect */
+        .tab tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Alternate Row Colors */
+        .tab tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }

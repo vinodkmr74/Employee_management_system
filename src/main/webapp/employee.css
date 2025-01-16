@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("pexels-codioful-7130565.jpg");
+  background-size: 100% 100%;
+  height: 93vh;
+  background-repeat: no-repeat;
+}
+
+.box2 p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+ 
+}
+
+.btn {
+	 padding:50px;
+   
+    width: 400px;
+    height:300px;
+    margin: auto;
+  border-radius: 10px;
+  border: 1px rebeccapurple solid;
+  background-color: rgba(245, 245, 245, 0.203);
+ 
+}
+.box3,.box4,.box5 {
+  display: flex;
+  height: 50px;
+  width: 250px;
+  border: 1px rgba(63, 126, 189, 0.688) solid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: rgb(16, 225, 152);
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media(max-width: 408px){
+    .btn{
+        width: 90%;
+        background-color: aquamarine;
+    }
+}

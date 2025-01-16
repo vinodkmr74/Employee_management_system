@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+
+	
+}
+
+h1{
+	
+	
+	text-align: center;
+	font-size: 40px;
+}
+  .tab {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 3% 0% 0% 10%
+        }
+
+        .tab th, .tab td {
+            border: 2px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        /* Header Styling */
+        .tab th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Row Hover Effect */
+        .tab tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Alternate Row Colors */
+        .tab tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .update{
+
+            display: flex;
+            background-color:rgba(15, 181, 117, 0.632);
+            align-items: center;
+            padding: 5px;
+           
+        }
+
+        .update:hover{
+
+            border: 2px rgb(12, 219, 43) solid;
+
+        }
+            #up{
+
+              text-decoration: none;
+              font-size: 20px;
+              gap: 10px;
+             
+            
+       }

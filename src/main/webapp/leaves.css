@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c0c0c0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+#btn{
+
+  height: 40px;
+  width: 250px;
+  border: 1px rgb(27, 131, 156) solid;
+  background-color: rgb(78, 137, 233);
+  margin: auto;
+  margin-left: 70%;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a{
+
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.form_fild{
+
+    width: 40%;
+    border: 2px rgba(176, 143, 143, 0.697) solid;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    gap: 5px;
+    background-color: rgba(245, 245, 245, 0.594);
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+
+.form_fild label{
+
+  font-size: 25px;
+
+
+
+}
+.form_fild input{
+
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+   font-size: 15px;
+  
+
+}
+
+#dep{
+
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+
+
+}
+
+#description{
+
+
+  height: 300px;
+  width: 300px;
+  border: 1px rosybrown solid;
+
+}
+
+#apply{
+
+  background-color: aquamarine;
+  font-size: 20px;
+
+}
+
+
+
+
+
